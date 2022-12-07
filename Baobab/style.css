@@ -1,0 +1,160 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 100px;
+    font-size: 18px;
+}
+.navbar ul {
+    gap: 40px;
+    list-style: none;
+    text-align: left;
+}
+.navbar li {
+    color: rgb(105, 105, 104);
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 480;
+    text-align: left;
+    text-decoration: underline;
+}
+li:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
+h2{
+    text-align: center;
+    color: rgb(15, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro h4 {
+    color: rgb(189, 179, 179);
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+
+}
+h3 {
+    color: rgb(5, 4, 4);
+    font-size: 30px;    
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+    font-size: large;
+}
+
+footer {
+    box-shadow: 0 2px 10px 2px rgb(0, 0, 0, 0.1);
+    padding: 5px 40px;
+    font-weight: 200;
+    background-color: rgb(11, 11, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot {
+    display: flex;
+}
+.futa {
+    display: flex;
+}
+.futa li {
+    padding: 0px 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(112, 112, 111);
+    font-family: Calibri;
+    list-style: none;
+}
+.futa li:first-child {
+    color: yellowgreen;
+}
+li:hover {
+    cursor: pointer;
+    color: wheat;
+}
+h4{
+    color:rgb(175, 166, 166);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: peachpuff;
+    margin: 40;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Box{
+    width: 450px;
+    height: 350px;
+    margin: 24px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.bocs p {
+    text-align: center;
+    word-wrap: wrap;
+    padding: 0px 300px ;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.bocsix img {
+    padding: 0px 280px;
+}
+.text p{
+    padding: 0px 150px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-weight: 40;
+}
+.photos img {
+    width: 12%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+.section2 h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.list ul {
+    text-align: left;
+    color: rgb(112, 112, 111);
+    font-family: Calibri;
+    list-style: square;
+}
+.services {
+    background-color: rgb(255, 249, 242);
+    padding: 5px 5px;
+}
+.vision h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.vision h2 {
+    padding: 20px 450px 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.vision img {
+    padding: 5px 430px;
+}
